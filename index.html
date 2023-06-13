@@ -16,8 +16,110 @@
 </head>
 
 <body>
-    <h1>This is my portfolio!</h1>
+<html>
 
+<head>
+    <title>My First Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="Design, UX, UI, Portfolio">
+    <meta name="author" content="">
+
+    <!-- CSS / Styling -->   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+
+    <!-- Hero Section -->
+    <div class="section">
+        <div id="heroText">
+        <h1 class="left-align">Hi there, I'm Em</h1>
+        <h2 class="left-align">UX/UI Designer, Painter, and Animal Enthusiast!</h2>
+        </div>
+    </div>
+
+
+     <!-- Logo Section -->
+     <div id="logo" class="section">
+        Em Thompson
+    </div>
+
+    
+    <!-- This is my nav -->
+    <ul id="nav">
+        <a href="#Portfolio">
+            <li>Portfolio</li>
+        </a>
+        <a href="#About">
+            <li>About</li>
+        </a>
+        <a href="#CV">
+            <li>CV</li>
+        </a>
+        <a href="#Contact">
+            <li>Contact</li>
+        </a>
+    </ul>
+
+   
+   
+
+    <!-- Portfolio section responsive design by defining casestudy as a class-->
+    <div id="Portfolio" class="section">
+        <h2 class="center-align">Portfolio</h2>
+        <div class="container">
+            <div class="Row">
+                <div class="col s12 m6 l4">
+                    <div class="caseStudy"></div>
+                    <div class="caseStudy"></div>
+                    <div class="caseStudy"></div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="caseStudy"></div>
+                    <div class="caseStudy"></div>
+                    <div class="caseStudy"></div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="caseStudy"></div>
+                    <div class="caseStudy"></div>
+                    <div class="caseStudy"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+      <!-- About section -->
+    <div id="About" class="section">
+        <h2 class="center-align">About</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <h2 class= "left-align">Bio</h2>
+                    <p>Lorem ipsum!</p>
+
+                    <p>Lorem ipsum!</p>
+
+                    <p>Lorem ipsum!</p>
+                </div>
+        </div>
+    </div>
+     <!-- CV section -->
+    <div id="CV" class="section">
+        <h2 class="center-align">CV</h2>
+    </div>
+      <!-- Contact section -->
+    <div id="Contact" class="section">
+        <h2 class="center-align">Contact</h2>
+    </div>
+
+
+    <!-- This is where I load the Javascript -->
     <!-- JS -->
     <script src="js/main.js"></script>
 </body>  
